@@ -1,0 +1,16 @@
+{
+  "domains": [""],
+  "globals": {
+    "site_title": "Steve's CS Adventures",
+    "twitter": "HarpPlatform",
+    "site_url": "http://example.com",
+    "disqus": {
+      "enabled": false,
+      "shortname": ""
+    },
+    "sitemap": {
+      "enabled": true,
+      "changefreq": "daily"
+    }
+  }
+}
