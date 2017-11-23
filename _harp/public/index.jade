@@ -1,4 +1,4 @@
-h1 Hello World :)
+h1 Hi :)
 
 p: a(href="/"): img.profile-img(src="/assets/images/Profile Photo.png")
 p.center <strong> Nocturnal programmer, occasional photographer, aspiring entrepreneur, ever curious :)  
@@ -11,7 +11,10 @@ hr
 h4.center Blog Entries:
 
 ul
-  each article, slug in public.posts._data
-    li
-      a(href="/posts/#{ slug }") #{ article.title }
-
+	each article, slug in public.posts._data
+		if article.top == "f"
+			br
+			br
+		.gray
+			!{article.date}
+		a(href="/posts/#{ slug }") #{ article.title }
