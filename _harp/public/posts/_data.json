@@ -1,7 +1,12 @@
 {
+   "Lone_Programmer_Myth_11_27_2017": {
+    "title": "Lone Programmer Myth",
+    "date" : "11/27/2017", 
+    "top"  : "t"
+  },
    "Hello_World_11_22_2017": {
     "title": "Hello World",
     "date" : "11/22/2017", 
-    "top"  : "t"
+    "top"  : "f"
   }
 }
