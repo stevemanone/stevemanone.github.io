@@ -9,20 +9,6 @@ p.center My name is Steve and I'm a programmer who's passionate about technology
 br
 hr
 
-h4.center Blog Posts:
-
-
-ul
-	each article, slug in public.posts._data
-		if article.top == "f"
-			br
-			br
-		.gray
-			!{article.date}
-		a(href="/posts/#{ slug }") #{ article.title }
-
-hr
-
 h4.center Also find me at:
 ul
 
